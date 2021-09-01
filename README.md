@@ -6,7 +6,5 @@
 :books:ESTUDO<br>
 Repositório utilizado para estudar JS<br>
 <hr>
-<h4 align="center"> 
 
-</h4>
 <hr>
