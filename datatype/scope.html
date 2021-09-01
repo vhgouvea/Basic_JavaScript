@@ -1,0 +1,45 @@
+<script>
+    {
+        let x = 10
+        console.log(x)
+    }
+
+
+
+//Var é global e, também local
+// Ele faz o hoisting ("Elevação") - É como se eu declarasse x antes de printar:
+/*
+var x
+
+console.log("> existe x antes do bloco?", x)
+
+
+{
+    x = 0
+}
+
+*/
+console.log("----Var----")
+
+console.log("> existe x antes do bloco?", x) // Aqui, ele vai falar que "Existe" mas que está indefinido
+
+
+{
+    var x = 0
+}
+
+console.log("> existe x depois do bloco?", x)
+
+console.log("----Let e Const---")
+/*Não existem no escopo global, nesse caso, apenas no local 
+Portanto, só vai mostrar com o console.log se ele estiver dentro do escopo onde o y está declarado*/
+console.log("> existe y antes do bloco?", y)
+
+{
+    let y = 0
+    console.log("Existe y", y)
+}
+
+console.log("> existe x depois do bloco?", y)    
+
+</script>
