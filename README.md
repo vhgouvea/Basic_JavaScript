@@ -7,6 +7,6 @@
 Repositório utilizado para estudar JS<br>
 <hr>
 <h4 align="center"> 
-	🚧 🚀 Em construção...  🚧
+
 </h4>
 <hr>
