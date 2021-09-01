@@ -7,4 +7,3 @@
 Repositório utilizado para estudar JS<br>
 <hr>
 
-<hr>
